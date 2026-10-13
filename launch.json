@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "Bankers",
+    "name": "Bankers",
+    "symbol": "BANKERS",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8800,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0xbdd848d77af9e2a9c8def8fbfa6fd3a36c7dfde7"
+  },
+  "notes": "Bankers is a fixed-supply ERC-20 with 18 decimals. Its constructor takes no arguments and mints all 1,000,000,000 BANKERS once to msg.sender, the factory at launch. It has no administrative powers, transfer fees, or post-construction minting. No application contracts are deployed. The pool pairs with IMD. initialPrice records provenance only; the deployer derives the opening price from initialMarketCapWei and totalSupply."
+}
