@@ -1,0 +1,148 @@
+[
+  {
+    "repository": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+    "version": "v5.0.2",
+    "commit": "dbb6104ce834628e473d2173bbc9d47f81a9eec3",
+    "archive": "https://codeload.github.com/OpenZeppelin/openzeppelin-contracts/tar.gz/dbb6104ce834628e473d2173bbc9d47f81a9eec3",
+    "archiveSha256": "4a9c091852052f4319173629e0bf0b5cdf7a39d70e5e2298a7a6a149eff9f385",
+    "files": [
+      {
+        "path": "lib/openzeppelin-contracts/LICENSE",
+        "sha256": "0e05b4f45c8769ece14ba2d202bf6f5ed7132600b642c981266f7255e0187ea3"
+      },
+      {
+        "path": "lib/openzeppelin-contracts/contracts/interfaces/draft-IERC6093.sol",
+        "sha256": "4aea87243e6de38804bf8737bf86f750443d3b5e63dd0fd0b7ad92f77cdbd3e3"
+      },
+      {
+        "path": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "sha256": "2d874da1c1478ed22a2d30dcf1a6ec0d09a13f897ca680d55fb49fbcc0e0c5b1"
+      },
+      {
+        "path": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "sha256": "6f2faae462e286e24e091d7718575179644dc60e79936ef0c92e2d1ab3ca3cee"
+      },
+      {
+        "path": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "sha256": "1d079c20a192a135308e99fa5515c27acfbb071e6cdb0913b13634e630865939"
+      },
+      {
+        "path": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "sha256": "847fda5460fee70f56f4200f59b82ae622bb03c79c77e67af010e31b7e2cc5b6"
+      }
+    ]
+  },
+  {
+    "repository": "https://github.com/foundry-rs/forge-std",
+    "version": "v1.9.6",
+    "commit": "3b20d60d14b343ee4f908cb8079495c07f5e8981",
+    "archive": "https://codeload.github.com/foundry-rs/forge-std/tar.gz/3b20d60d14b343ee4f908cb8079495c07f5e8981",
+    "archiveSha256": "eb94c3bd026342ae6955ce08f76aad648c586c003acebf5ee5d9b419a417076c",
+    "files": [
+      {
+        "path": "lib/forge-std/LICENSE-APACHE",
+        "sha256": "50b6bf8bdb63265ce14953b480b7aaa0271e78f56843b99c184abd3ae5048cd7"
+      },
+      {
+        "path": "lib/forge-std/LICENSE-MIT",
+        "sha256": "6d185dfe089d4de346d391fc5997fbd4739bad1d6556010413c10f420d704ecc"
+      },
+      {
+        "path": "lib/forge-std/src/Base.sol",
+        "sha256": "d5a2918c9ba38629bcf1c8b5206a0b779eb92576bbebec2024ec6438562ecf74"
+      },
+      {
+        "path": "lib/forge-std/src/Script.sol",
+        "sha256": "c4de2ae936fa7bb4f4250a3908c6bce7acdc84034156cb252fdc2d9a1c020012"
+      },
+      {
+        "path": "lib/forge-std/src/StdAssertions.sol",
+        "sha256": "d4c89eec70d267dec6188461fbc74d3dc8c47e518d176a23417533a232ed9780"
+      },
+      {
+        "path": "lib/forge-std/src/StdChains.sol",
+        "sha256": "eaf3a8b0c8e50545e301c0067450ad2196942e2bedc0e327d7fb61d91474fb54"
+      },
+      {
+        "path": "lib/forge-std/src/StdCheats.sol",
+        "sha256": "29af42f9d670fd22e9fc3ebe3c2da194471e93e210361c41d3d26ef04e9dca28"
+      },
+      {
+        "path": "lib/forge-std/src/StdError.sol",
+        "sha256": "82ca17e33a03775e95b4612bd604a8732c73b2982a0278d214e06c68a886dc11"
+      },
+      {
+        "path": "lib/forge-std/src/StdInvariant.sol",
+        "sha256": "f572e991cfe874844b3b75a540e38e2161c29b5d9ab1635a3c4f1a16c548f987"
+      },
+      {
+        "path": "lib/forge-std/src/StdJson.sol",
+        "sha256": "0211b47e93dbeb6a7de6112470a77137038ed73b79b015847f013e49fcd7511f"
+      },
+      {
+        "path": "lib/forge-std/src/StdMath.sol",
+        "sha256": "f04fc0616741563eb32d66c11af7fdca55a7202221e14282268c7be851fc63ab"
+      },
+      {
+        "path": "lib/forge-std/src/StdStorage.sol",
+        "sha256": "c6dbb05b29be5bcbfabf06ea46b64fe9fbdb7542681795614ca3dee248214215"
+      },
+      {
+        "path": "lib/forge-std/src/StdStyle.sol",
+        "sha256": "324c2b0e100e88edbdb75f60f8a4c42f056f8d618ae5f56b1c404df64e8280a7"
+      },
+      {
+        "path": "lib/forge-std/src/StdToml.sol",
+        "sha256": "de3fb35af79a1fd2a2de9bc4ca7866e4102f9d3fbf11f66f3fe82696412d47e2"
+      },
+      {
+        "path": "lib/forge-std/src/StdUtils.sol",
+        "sha256": "c64a4d5023e6d46884734b8cb1b0f424bab26f0ccc920779b58d2f841c4506ae"
+      },
+      {
+        "path": "lib/forge-std/src/Test.sol",
+        "sha256": "242f2494d264bf00515b7bfcb5a3e6cbc3e737d03795105cbf19f68d8b640dd9"
+      },
+      {
+        "path": "lib/forge-std/src/Vm.sol",
+        "sha256": "37cdc22402df6c218ca65502e7fa2a24a3ce5b796eaaee330ad84fb9578bc73c"
+      },
+      {
+        "path": "lib/forge-std/src/console.sol",
+        "sha256": "896c5a5a5c235cb11a39876d430e1fc2c621e7950c4637ca58251b84b053f178"
+      },
+      {
+        "path": "lib/forge-std/src/console2.sol",
+        "sha256": "3bbe2e07ec53d8cf9c091667fe10234fcb3e2b45eab2c711002188806f46e779"
+      },
+      {
+        "path": "lib/forge-std/src/interfaces/IERC1155.sol",
+        "sha256": "8bb8592c2e1005b0e180215a48f945993eca98561672cfbe6375eb987f5a6ef8"
+      },
+      {
+        "path": "lib/forge-std/src/interfaces/IERC165.sol",
+        "sha256": "9bdab733bba2df028853aef1f5e06871fb4157d15c3c6a670be13f9b614c193b"
+      },
+      {
+        "path": "lib/forge-std/src/interfaces/IERC20.sol",
+        "sha256": "283cedb0cf82640370b77b8a42175bc417c69a02d8989ac6d6a99be2157acd4d"
+      },
+      {
+        "path": "lib/forge-std/src/interfaces/IERC4626.sol",
+        "sha256": "f831df3fcac8dc44b0ae02a61f0d86d3e9f50d71cc74e52f7643ad695d6cab65"
+      },
+      {
+        "path": "lib/forge-std/src/interfaces/IERC721.sol",
+        "sha256": "f44e47686226be0889c4a21f782d653c2ebba509c0c13197edf6a5f1567c52a6"
+      },
+      {
+        "path": "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "sha256": "6620d9c5ea2e2291440e1dcce5072f948b7ec4d65075876a0d0ac9267d3342e3"
+      },
+      {
+        "path": "lib/forge-std/src/safeconsole.sol",
+        "sha256": "ed11aa2efc83fa8e575215a11dd7a9be385cf49dacbc379630168d7334899e46"
+      }
+    ]
+  }
+]
